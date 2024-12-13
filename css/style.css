@@ -1,0 +1,683 @@
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: url("../img/edustage-main.webp") center/cover;
+    height: 100vh;
+}
+
+#all-navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    color: #002347;
+    font: 600 14px "Rubik";
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li {
+    width: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #002347;
+    font: 600 14px "Rubik";
+    transition: .4s;
+}
+
+.navbar a:hover {
+    color: #fdc632;
+}
+
+.home {
+    color: #fdc632 !important;
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
+    color: #002347;
+}
+
+hr {
+    color: #00000026;
+}
+
+#texts {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: end;
+}
+
+.banner-content-text-center h2 {
+    text-align: center;
+    margin: 24px 0 48px 0;
+    font: 600 48px "Roboto";
+    text-transform: uppercase;
+    color: #002347;
+}
+
+.banner-content-text-center p {
+    text-align: center;
+    font: 600 25px "Roboto";
+    color: #002347;
+    text-transform: uppercase;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+}
+
+.first-content {
+    width: 140px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #002347;
+    color: #fdc632;
+    font: 600 14px "Roboto";
+    cursor: pointer;
+    transition: .4s;
+}
+
+.second-content {
+    width: 140px;
+    margin-left: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #fdc632;
+    color: #002347;
+    font: 600 14px "Roboto";
+    cursor: pointer;
+    transition: .4s;
+}
+
+.first-content:hover {
+    background-color: #fdc632;
+    color: #002347;
+}
+
+.second-content:hover {
+    background-color: #002347;
+    color: #fdc632;
+}
+
+main {
+    height: 200vh;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#awesome-text {
+    display: flex;
+    justify-content: center;
+    padding: 130px 0 100px 0;
+}
+
+.main-area-text h1 {
+    margin: 0 0 16px;
+    font: 800 36px "Rubik";
+    color: #002347;
+    text-align: center;
+    line-height: 36px;
+}
+
+.main-area-text p {
+    color: #7b838a;
+    font-style: italic;
+    font: 500 14px "Roboto";
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background: #f9f9ff;
+    width: 350px;
+    height: 240px;
+    transition: .3s;
+
+}
+
+.card1:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.fa-graduation-cap {
+    font-size: 48px;
+    margin: 20px 20px;
+    color: #002347;
+}
+
+.card1 h2 {
+    margin: 20px;
+    color: #002347;
+    font: 600 20px "Rubik";
+}
+
+.card1 p {
+    margin: 0 20px;
+    color: #7b838a;
+    font: 500 14px "Rubik";
+}
+
+.course-card1 {
+    width: 360px;
+    background-color: #f9f9ff;
+    transition: .4s;
+}
+
+.card-content {
+    padding: 30px 26px;
+}
+
+.design {
+    border: 1px solid #002347;
+    padding: 5px 20px;
+}
+
+.card-content h2 {
+    padding: 30px 0;
+}
+
+.author-img {
+    display: flex;
+    margin-left: 26px;
+}
+
+.author-img p {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 25px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #fdc632;
+    color: #002347;
+    font: 600 18px "Rubik";
+    transition: .4s;
+}
+
+.price-card {
+    display: flex;
+    justify-content: end;
+}
+
+#author-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design {
+    background-color: #002347;
+    color: white;
+    font: 500 16px "Roboto";
+}
+
+.card-content h2 {
+    font: 600 20px "Rubik";
+    color: #002347;
+    transition: .4s;
+}
+
+.card-content p {
+    color: #7b838a;
+    font: 500 15px "Rubik";
+}
+
+.author-img p {
+    color: #002347;
+    font: 400 13px "Roboto";
+}
+
+.course-card1:hover {
+    .price {
+        background-color: #002347;
+        color: #fdc632;
+    }
+
+    .card-content h2 {
+        color: #fdc632;
+    }
+
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.blue-section {
+    height: 50vh;
+    background-color: #002347;
+    margin-bottom: 30px;
+}
+
+.blue-section {
+    padding: 130px 0;
+}
+
+.register-time-text h2 {
+    display: flex;
+    justify-content: center;
+    font: 600 48px "Rubik";
+    width: 665px;
+}
+
+.register-time-text p {
+    width: 665px;
+    margin-left: 23%;
+    margin-top: 25px;
+    font: 500 16px "Roboto";
+
+}
+
+.register-time-text {
+    color: #fff;
+    width: 800px;
+}
+
+.day-boxes {
+    display: flex;
+    justify-content: space-between;
+    background: #334f6c;
+    padding: 40px 30px;
+    margin-right: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin-top: 65px
+}
+
+.register-txt-section {
+    height: 400px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all-box {
+    margin-left: 170px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.day-boxes{
+    width: 300px;
+    height: 50px;
+}
+
+.day-boxes h2 {
+    font: 600 42px "Rubik";
+    color: #fff;
+}
+
+.day-boxes p {
+    color: #fff;
+    font: 500 14px "Rubik";
+    display: flex;
+    align-items: end;
+}
+
+#all-register {
+    display: flex;
+}
+
+.register-login {
+    padding: 35px 70px;
+    justify-content: space-evenly;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.register-login h3 {
+    font: 600 24px "Roboto";
+}
+
+.register-login p {
+    color: #7b838a;
+    font: 400 16px "Roboto";
+}
+
+.register-login input {
+    outline: none;
+    display: flex;
+    justify-content: start;
+    border: 0;
+    border-bottom: 1px solid #7b838a48;
+}
+
+::placeholder {
+    font: 400 16px "Rubik";
+}
+
+.register-login button {
+    background-color: #fdc632;
+    border: 0;
+    padding: 15px 100px;
+    color: #002347;
+    font: 500 18px "Roboto";
+    transition: .4s;
+    cursor: pointer;
+}
+
+.register-login button:hover {
+    background-color: #002347;
+    color: #fdc632;
+}
+
+#trainer-section {
+    height: 100vh;
+}
+
+.trainer-text {
+    margin: 100px 0 75px 0;
+    height: 100px;
+
+}
+
+.trainer-text h3 {
+    display: flex;
+    justify-content: center;
+    font: 600 36px "Rubik";
+    color: #002347;
+    margin: 0 0 16px;
+}
+
+.trainer-text p {
+    color: #7b838a;
+    font: 400 16px "Roboto";
+    text-align: center;
+}
+
+.trainer-img-content {
+    text-align: center;
+    color: #7b838a;
+    font: 500 18px "Rubik";
+}
+
+.trainer-img-content h3 {
+    color: #002347;
+    font: 600 18px "Roboto";
+}
+
+.trainer-img-content p {
+    color: #7b838a;
+    margin: 5px 0 30px;
+    font: 400 14px "Roboto";
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-pinterest-p {
+    color: #7b838a79;
+    transition: .4s;
+}
+
+.fa-pinterest-p:hover {
+    color: #fdc632;
+}
+
+.fa-linkedin-in:hover {
+    color: #fdc632;
+}
+
+.fa-twitter:hover {
+    color: #fdc632;
+}
+
+.fa-facebook-f:hover {
+    color: #fdc632;
+}
+
+#all-trainer-cards {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 14px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.trainer-img {
+    height: 500px;
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: .4s;
+}
+
+.trainer-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.second-blue-section {
+    height: 100vh;
+    background-color: #002347;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.section-content h4 {
+    font: 600 36px "Rubik";
+    color: white;
+    text-align: center;
+}
+
+.section-content p {
+    font: 400 16px "Roboto";
+    color: #7b838a;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 100px 0;
+}
+
+.clients-main {
+    text-align: center;
+
+    h3 {
+        font: bold 36px "Rubik";
+        color: #002347;
+    }
+
+    p {
+        font: 400 16px "Roboto";
+        color: #7b838a;
+        font-style: italic;
+        padding-top: 10px;
+    }
+}
+
+.client-card {
+    width: 425px;
+    height: 139px;
+    padding: 50px 55px;
+    box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3);
+    display: flex;
+    transition: .4s;
+
+    img {
+        padding-right: 20px;
+        width: 121px;
+        height: 121px;
+    }
+}
+
+.client-card:hover {
+    box-shadow: 0px 10px 30px 0px rgba(0, 35, 71, 0.1);
+}
+
+.clinet-info {
+
+    h5 {
+        font: 500 20px "Rubik";
+        color: #002347;
+        padding-bottom: 15px;
+    }
+
+    p {
+        font: 400 16px "Roboto";
+        color: #7b838a;
+        line-height: 25px;
+    }
+}
+
+.client-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bg-color {
+    background-color: #002347;
+    padding: 100px 0;
+}
+
+#all-footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content h2 {
+    font: 600 18px arial;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-content a,
+.footer-subscribe p {
+    display: block;
+    font: 500 16px arial;
+    color: #7b838a;
+    margin-bottom: 15px;
+    transition: .4s;
+}
+
+.footer-content a:hover {
+    color: #fff;
+}
+
+.footer-subscribe input {
+    background-color: #334f6c;
+    border: 0;
+    width: 200px;
+    padding: 15px;
+    color: #Fff;
+    outline: none;
+}
+
+.footer-subscribe button {
+    background-color: #fdc632;
+    color: #002347;
+    border: 0;
+    font: 600 12px arial;
+    padding: 13px 20px;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    font: 500 14px arial;
+    text-transform: capitalize;
+}
+
+#copy-right-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.copyRight-content p {
+    color: #fff;
+    font: 500 16px arial;
+}
+
+.footer-icons {
+    color: #Fff;
+}
